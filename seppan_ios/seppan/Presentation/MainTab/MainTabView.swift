@@ -18,7 +18,7 @@ struct MainTabView: View {
                     Text("掲示板")
                 }
 
-            CalendarView()
+            CalendarContentView()
                 .tabItem {
                     Image(systemName: "calendar") // カレンダーアイコン
                     Text("カレンダー")
