@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A00FDD682DD831CB00C15D28 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00FDD672DD831CB00C15D28 /* MainTabView.swift */; };
+		A00FDD6F2DD832EC00C15D28 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00FDD6E2DD832EC00C15D28 /* BoardView.swift */; };
+		A00FDD712DD8330400C15D28 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00FDD702DD8330400C15D28 /* CalendarView.swift */; };
+		A00FDD732DD8331200C15D28 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00FDD722DD8331200C15D28 /* SettingView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A00FDD4A2DD82E4000C15D28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +34,10 @@
 		A00FDD382DD82E3E00C15D28 /* seppan_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seppan_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00FDD492DD82E4000C15D28 /* seppan_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seppan_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00FDD532DD82E4000C15D28 /* seppan_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seppan_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00FDD672DD831CB00C15D28 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A00FDD6E2DD832EC00C15D28 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		A00FDD702DD8330400C15D28 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A00FDD722DD8331200C15D28 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +90,7 @@
 				A00FDD4C2DD82E4000C15D28 /* seppan_iosTests */,
 				A00FDD562DD82E4000C15D28 /* seppan_iosUITests */,
 				A00FDD392DD82E3E00C15D28 /* Products */,
+				A00FDD692DD8323C00C15D28 /* seppan */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +102,57 @@
 				A00FDD532DD82E4000C15D28 /* seppan_iosUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A00FDD662DD831A700C15D28 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				A00FDD672DD831CB00C15D28 /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		A00FDD692DD8323C00C15D28 /* seppan */ = {
+			isa = PBXGroup;
+			children = (
+				A00FDD6A2DD8324D00C15D28 /* Presentation */,
+			);
+			path = seppan;
+			sourceTree = "<group>";
+		};
+		A00FDD6A2DD8324D00C15D28 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A00FDD6D2DD832D300C15D28 /* Setting */,
+				A00FDD6C2DD832C200C15D28 /* Calendar */,
+				A00FDD6B2DD832B600C15D28 /* Board */,
+				A00FDD662DD831A700C15D28 /* MainTab */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A00FDD6B2DD832B600C15D28 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				A00FDD6E2DD832EC00C15D28 /* BoardView.swift */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		A00FDD6C2DD832C200C15D28 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				A00FDD702DD8330400C15D28 /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		A00FDD6D2DD832D300C15D28 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A00FDD722DD8331200C15D28 /* SettingView.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00FDD712DD8330400C15D28 /* CalendarView.swift in Sources */,
+				A00FDD6F2DD832EC00C15D28 /* BoardView.swift in Sources */,
+				A00FDD732DD8331200C15D28 /* SettingView.swift in Sources */,
+				A00FDD682DD831CB00C15D28 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
